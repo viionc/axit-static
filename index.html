@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axit</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/bdfe8b9f48.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="bg-black w-full flex justify-center top-0 left-0">
+        <nav class=" flex text-zinc-400 container w-full py-4 text-lg">
+            <img src="/assets/logo.png" class="h-8" alt="">
+            <ul class="flex gap-8 items-center ms-auto">
+                <li><a class="hover:underline hover:text-white cursor-pointer" href="#landing">Home</a></li>
+                <li><a class="hover:underline hover:text-white cursor-pointer" href="#services">Our Services</a></li>
+                <li><a class="hover:underline hover:text-white cursor-pointer" href="#pricing">Pricing</a></li>
+                <li><a class="hover:underline hover:text-white cursor-pointer" href="#reviews">Reviews</a></li>
+                <li><a class="hover:underline hover:text-white cursor-pointer" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="landing"
+            class="w-full flex justify-center bg-[url('/assets/background.png')] bg-center bg-no-repeat bg-cover">
+            <div class="container flex justify-between lg:gap-[300px] px-12 items-center">
+                <article class="flex flex-col gap-12 justify-start py-32">
+                    <img src="/assets/logo.png" class="h-16 w-48" alt="axit logo">
+                    <h1 class="text-white text-4xl">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                    <span class="h-[2px] bg-white w-12"></span>
+                    <p class="text-md text-zinc-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin
+                        gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+                    <button
+                        class="group relative w-32 h-16 border-4 border-l-orange-300 border-r-orange-300 border-t-white border-b-white ">
+                        <p class="relative z-10 text-white group-hover:text-black transition-all text-xl">Download</p>
+                        <span
+                            class="h-full w-0 group-hover:w-full bg-white transition-all absolute top-0 left-0 z-0"></span>
+                    </button>
+                </article>
+                <article class="py-32">
+                    <div class="bg-white rounded-lg w-[400px]">
+                        <h2 class="bg-gray-200 text-center text-xl py-4 rounded-t-lg font-bold">Try Your FREE Trial
+                            Today</h2>
+                        <form class="flex flex-col gap-8 h-[200px] justify-center px-12">
+                            <input type="text" placeholder="Name"
+                                class="border border-t-0 border-r-0 border-l-0 h-12 border-b-zinc-400">
+                            <input type="text" placeholder="Email"
+                                class="border border-t-0 border-r-0 border-l-0 h-12 border-b-zinc-400">
+                        </form>
+                        <button
+                            class="bg-orange-300 text-white hover:text-black rounded-b-lg w-full text-center py-4 text-xl font-semibold transition-all">Get
+                            Started</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="socials" class="flex w-full bg-white justify-center py-12 ">
+            <article class="container flex gap-2 justify-start items-center px-12">
+                <div>
+                    <h3 class="text-2xl font-semibold">Social Media</h3>
+                    <p class="text-zinc-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet.</p>
+                </div>
+                <ul class="flex ms-auto gap-24">
+                    <li><i
+                            class="fa-brands fa-facebook-f fa-2xl social-icon text-[#b0b0b0] hover:text-orange-300 hover:scale-125 cursor-pointer  transition-all"></i>
+                    </li>
+                    <li><i
+                            class="fa-brands fa-linkedin fa-2xl text-[#b0b0b0] hover:text-orange-300 hover:scale-125 cursor-pointer transition-all"></i>
+                    </li>
+                    <li><i
+                            class="fa-brands fa-twitter fa-2xl text-[#b0b0b0] hover:text-orange-300 hover:scale-125 cursor-pointer transition-all"></i>
+                    </li>
+                    <li><i
+                            class="fa-brands fa-youtube fa-2xl text-[#b0b0b0] hover:text-orange-300 hover:scale-125 cursor-pointer transition-all"></i>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section id="services" class="flex w-full bg-gray-100 justify-center py-24 ">
+            <article class="container grid grid-cols-3 gap-8">
+                <ul id="service-tab-list" class="flex flex-col items-center justify-center gap-[1px]">
+                    <li
+                        class="h-32 w-32  bg-orange-300 hover:bg-orange-300 text-black hover:text-black text-2xl flex justify-center items-center rounded-t-md cursor-pointer">
+                        TAB 1</li>
+                    <li
+                        class="h-32 w-32 bg-zinc-600 hover:bg-orange-300 text-white hover:text-black text-2xl flex justify-center items-center cursor-pointer">
+                        TAB 2</li>
+                    <li
+                        class="h-32 w-32  bg-zinc-600 hover:bg-orange-300 text-white hover:text-black text-2xl flex justify-center items-center rounded-b-md cursor-pointer">
+                        TAB 3</li>
+                </ul>
+                <div class="flex gap-8 flex-col">
+                    <h3 class="font-semibold text-2xl">Tabs 1 Content Selected</h3>
+                    <p class="text-zinc-500 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                        Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                    <p class="text-zinc-500 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet.</p>
+                    <button
+                        class="bg-orange-300 rounded-md  w-24 py-2 hover:bg-black hover:text-white transition-all duration-500 font-semibold text-md">Download</button>
+                </div>
+                <div class="gap-8 flex-col hidden">
+                    <h3 class="font-semibold text-2xl">Tabs 2 Content Selected</h3>
+                    <p class="text-zinc-500 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet.
+                        Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                    <p class="text-zinc-500 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet.</p>
+                    <button
+                        class="bg-orange-300 rounded-md  w-24 py-2 hover:bg-black hover:text-white transition-all duration-500 font-semibold text-md">Download</button>
+                </div>
+                <div class="gap-8 flex-col hidden">
+                    <h3 class="font-semibold text-2xl">Tabs 3 Content Selected</h3>
+                    <p class="text-zinc-500 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                    <p class="text-zinc-500 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet.</p>
+                    <button
+                        class="bg-orange-300 rounded-md  w-24 py-2 hover:bg-black hover:text-white transition-all duration-500  font-semibold text-md">Download</button>
+                </div>
+                <img src="/assets/f-img-1.png" alt="">
+            </article>
+        </section>
+        <section class="flex w-full  justify-center py-24 ">
+            <article class="container grid grid-cols-2 px-32 gap-24">
+                <img src="/assets//f-img-2.png" alt="" loading="lazy">
+                <div class="flex flex-col gap-4">
+                    <h3 class="font-semibold text-xl">Sub List Section</h3>
+                    <span class="flex bg-orange-300 h-[2px] w-16"></span>
+                    <p class="text-zinc-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+                    <ul class="flex flex-col gap-3">
+                        <li class="flex gap-8 items-center">
+                            <div
+                                class="group border border-orange-300 rounded-full min-h-[48px] min-w-[48px] h-[48px] w-[48px] flex justify-center items-center hover:bg-black hover:border-black cursor-pointer">
+                                <i class="fa-solid fa-cloud-arrow-up fa-md text-orange-300 group-hover:text-white"></i>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <h4 class="font-semibold">Title 1</h4>
+                                <p class="text-zinc-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                    euismod bibendum laoreet.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-8 items-center">
+                            <div
+                                class="group border border-orange-300 rounded-full min-h-[48px] min-w-[48px] h-[48px] w-[48px] flex justify-center items-center hover:bg-black hover:border-black cursor-pointer">
+                                <i
+                                    class="fa-solid fa-cloud-arrow-down fa-md text-orange-300 group-hover:text-white"></i>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <h4 class="font-semibold">Title 2</h4>
+                                <p class="text-zinc-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                    euismod bibendum laoreet.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <section id="why-us" class="flex w-full justify-center py-24 bg-gray-100">
+            <article class="container flex flex-col items-center gap-4">
+                <h5 class="font-semibold text-4xl">WHY US?</h5>
+                <span class="flex bg-orange-300 h-[2px] w-16"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="flex gap-4 mt-16">
+                    <li class="flex flex-col gap-6 items-center w-full">
+                        <div
+                            class="group border border-orange-300 rounded-full min-h-[60px] min-w-[60px] h-[60px] w-[60px] flex justify-center items-center hover:bg-black hover:border-black cursor-pointer">
+                            <i class="fa-regular fa-lightbulb fa-xl text-orange-300 group-hover:text-white"></i>
+                        </div>
+                        <strong class="hover:text-orange-300 text-xl">Thoughtful Design</strong>
+                        <p class="text-zinc-500 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                    </li>
+                    <li class="flex flex-col gap-6 items-center w-full">
+                        <div
+                            class="group border border-orange-300 rounded-full min-h-[60px] min-w-[60px] h-[60px] w-[60px] flex justify-center items-center hover:bg-black hover:border-black cursor-pointer">
+                            <i class="fa-regular fa-keyboard fa-xl text-orange-300 group-hover:text-white"></i>
+                        </div>
+                        <strong class="hover:text-orange-300 text-xl">Thoughtful Design</strong>
+                        <p class="text-zinc-500 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                    </li>
+                    <li class="flex flex-col gap-6 items-center w-full">
+                        <div
+                            class="group border border-orange-300 rounded-full min-h-[60px] min-w-[60px] h-[60px] w-[60px] flex justify-center items-center hover:bg-black hover:border-black cursor-pointer">
+                            <i class="fa-solid fa-bolt fa-xl text-orange-300 group-hover:text-white"></i>
+                        </div>
+                        <strong class="hover:text-orange-300 text-xl">Thoughtful Design</strong>
+                        <p class="text-zinc-500 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section id="pricing" class="flex w-full justify-center py-24">
+            <article class="container flex flex-col items-center gap-4 w-full">
+                <h5 class="font-semibold text-4xl">PRICING OPTIONS</h5>
+                <span class="flex bg-orange-300 h-[2px] w-20"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="flex gap-8 mt-16 w-[80%] items-end">
+                    <li class="flex flex-col w-full">
+                        <p class="bg-zinc-900 py-4 text-center font-bold border-b text-white">Basic</p>
+                        <p class="text-[120px] text-center text-white bg-zinc-900"><span
+                                class="text-[60px] text-zinc-400">$</span>0
+                        </p>
+                        <span class="flex bg-orange-300 h-[4px] w-full"></span>
+                        <ul class="text-center bg-gray-100">
+                            <li class="font-xl py-1 border-b border-gray-200">1 GB OF SPACE</li>
+                            <li class="font-xl py-1 border-b border-gray-200">10GB OF BANDWIDTH</li>
+                            <li class="font-xl py-1 border-b border-gray-200">3 WEBSITES</li>
+                            <li class="font-xl py-1 border-b border-gray-200">BASIC CUSOTMIZATION</li>
+                            <li class="font-xl py-1 border-b border-gray-200">WORDPRESS INTEGRATION</li>
+                            <li class="font-xl py-1 border-b border-gray-200">EMAIL SUPPORT</li>
+                        </ul>
+                    </li>
+                    <li class="flex flex-col w-full">
+                        <p class="bg-zinc-900 py-4 text-center font-bold border-b text-white">Advanced</p>
+                        <p class="text-[120px] text-center text-white bg-zinc-900"><span
+                                class="text-[60px] text-zinc-400">$</span>19<span
+                                class="text-lg text-zinc-400">/year</span>
+                        </p>
+                        <p class="bg-orange-300 py-2 text-4xl text-white text-center">Best Seller</p>
+                        <span class="flex bg-orange-300 h-[4px] w-full"></span>
+                        <ul class="text-center bg-gray-100">
+                            <li class="font-xl py-1 border-b border-gray-200">10 GB OF SPACE</li>
+                            <li class="font-xl py-1 border-b border-gray-200">50GB OF BANDWIDTH</li>
+                            <li class="font-xl py-1 border-b border-gray-200">5 WEBSITES</li>
+                            <li class="font-xl py-1 border-b border-gray-200">ADVANCED CUSOTMIZATION</li>
+                            <li class="font-xl py-1 border-b border-gray-200">WORDPRESS INTEGRATION</li>
+                            <li class="font-xl py-1 border-b border-gray-200">EMAIL SUPPORT</li>
+                        </ul>
+                    </li>
+                    <li class="flex flex-col w-full">
+                        <p class="bg-zinc-900 py-4 text-center font-bold border-b text-white">Pro</p>
+                        <p class="text-[120px] text-center text-white bg-zinc-900"><span
+                                class="text-[60px] text-zinc-400">$</span>59<span
+                                class="text-lg text-zinc-400">/year</span>
+                        </p>
+                        <span class="flex bg-orange-300 h-[4px] w-full"></span>
+                        <ul class="text-center bg-gray-100">
+                            <li class="font-xl py-1 border-b border-gray-200">50 GB OF SPACE</li>
+                            <li class="font-xl py-1 border-b border-gray-200">200GB OF BANDWIDTH</li>
+                            <li class="font-xl py-1 border-b border-gray-200">10 WEBSITES</li>
+                            <li class="font-xl py-1 border-b border-gray-200">PRO CUSOTMIZATION</li>
+                            <li class="font-xl py-1 border-b border-gray-200">WORDPRESS INTEGRATION</li>
+                            <li class="font-xl py-1 border-b border-gray-200">EMAIL SUPPORT</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+        </section>
+        <section id="reviews" class="flex w-full justify-center py-24 bg-gray-100">
+            <article class="container flex flex-col items-center gap-4 w-full">
+                <h5 class="font-semibold text-4xl">WHAT OUR CUSTOMERS ARE SAYING</h5>
+                <span class="flex bg-orange-300 h-[2px] w-40"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="flex gap-8 mt-16 w-[80%]">
+                    <li class="flex flex-col w-full gap-6">
+                        <p class="bg-white italic p-4 w-3/4 rounded-md">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Doloribus
+                            accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                        <div class="flex gap-2 items-center">
+                            <img src="/assets/avatar.png" alt="" loading="lazy">
+                            <div class="flex flex-col gap-1">
+                                <strong>Jeremy H.</strong>
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="flex flex-col w-full gap-6">
+                        <p class="bg-white italic p-4 w-3/4 rounded-md">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Doloribus
+                            accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                        <div class="flex gap-2 items-center">
+                            <img src="/assets/avatar2.png" alt="" loading="lazy" class="rounded-full">
+                            <div class="flex flex-col gap-1">
+                                <strong>John S.</strong>
+                                <p>Freelancer</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="flex flex-col w-full gap-6">
+                        <p class="bg-white italic p-4 w-3/4 rounded-md">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Doloribus
+                            accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+                        <div class="flex gap-2 items-center">
+                            <img src="/assets/avatar3.png" alt="" loading="lazy" class="rounded-full">
+                            <div class="flex flex-col gap-1">
+                                <strong>Susan W.</strong>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section id="design" class="w-full flex justify-center bg-center bg-no-repeat bg-cover py-24">
+            <article class="container flex flex-col items-center gap-4 w-full text-white">
+                <h5 class="font-semibold text-4xl">STYLISH DESIGN</h5>
+                <span class="flex bg-white h-[2px] w-40"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="group relative flex border-2 hover:text-black">
+                    <p class="z-10 relative p-2">Download</p><span
+                        class="h-0 w-full group-hover:h-full bg-white transition-all absolute bottom-0 left-0 z-0"></span>
+                </button>
+            </article>
+        </section>
+        <section id="contact" class="flex w-full justify-center py-24 bg-gray-100">
+            <article class="container flex flex-col items-center gap-4 w-[60%] text-black">
+                <h5 class="font-semibold text-4xl">CONTACT US</h5>
+                <span class="flex bg-orange-300 h-[2px] w-24"></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <form class="flex gap-12 w-full mt-8">
+                    <div class="flex flex-col gap-2 w-full justify-between">
+                        <input placeholder="Name" class="border-b border-zinc-400 p-2 h-12 bg-gray-100 w-full">
+                        <input placeholder="Email" class="border-b border-zinc-400 p-2 h-12 bg-gray-100 w-full">
+                        <input placeholder="Subject" class="border-b border-zinc-400 p-2 h-12 bg-gray-100 w-full">
+                    </div>
+                    <textarea placeholder="Leave your message here..."
+                        class="w-full h-64 p-1 bg-gray-100 border-b border-zinc-400"></textarea>
+                </form>
+            </article>
+        </section>
+        <footer class="bg-black w-full flex flex-col items-center justify-center gap-2 py-4">
+            <ul class="flex gap-24">
+                <li><i
+                        class="fa-brands fa-facebook-f fa-lg social-icon text-[#b0b0b0] hover:text-orange-300 hover:scale-125 cursor-pointer  transition-all"></i>
+                </li>
+                <li><i
+                        class="fa-brands fa-linkedin fa-lg text-[#b0b0b0] hover:text-orange-300 hover:scale-125 cursor-pointer transition-all"></i>
+                </li>
+                <li><i
+                        class="fa-brands fa-twitter fa-lg text-[#b0b0b0] hover:text-orange-300 hover:scale-125 cursor-pointer transition-all"></i>
+                </li>
+                <li><i
+                        class="fa-brands fa-youtube fa-lg text-[#b0b0b0] hover:text-orange-300 hover:scale-125 cursor-pointer transition-all"></i>
+                </li>
+            </ul>
+            <p class="text-zinc-400">©2023</p>
+        </footer>
+    </main>
+    <script src="/index.js"></script>
+</body>
+
+</html>
