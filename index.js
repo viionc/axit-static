@@ -24,7 +24,7 @@ window.addEventListener("scroll", () => {
     }
 
     if (window.scrollY > 2500) {
-        document.getElementById("design").style.backgroundImage = "url('/assets/background-2.png')";
+        document.getElementById("design").style.backgroundImage = "url('./assets/background-2.png')";
     }
 });
 
