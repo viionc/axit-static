@@ -31,3 +31,5 @@ window.addEventListener("scroll", () => {
 tabArray.forEach((tab, index) => {
     tab.addEventListener("mouseover", () => handleTabMouseOver(index));
 });
+
+document.getElementById("contact-form").addEventListener("submit", (e) => e.preventDefault());
