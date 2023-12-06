@@ -12,9 +12,12 @@
 
 <body>
     <header class="bg-black w-full flex justify-center top-0 left-0">
-        <nav class=" flex  text-zinc-400 container w-full py-4 text-lg">
+        <nav class=" flex  text-zinc-400 container w-full py-4 text-lg items-center px-12 lg:px-0">
             <img src="./assets/logo.png" class="h-8" alt="">
-            <ul class="flex gap-8 items-center ms-auto flex-col lg:flex-row">
+            <button id="nav-button" class="relative flex lg:hidden ms-auto z-30"><i
+                    class="fa-solid fa-bars fa-xl text-white "></i></button>
+            <ul id="nav-menu"
+                class="hidden absolute top-0 right-0 h-[100vh] lg:h-[auto] justify-center lg:justify-end w-1/2 bg-black lg:static lg:flex gap-8 items-center ms-auto flex-col lg:flex-row z-20">
                 <li><a class="hover:underline hover:text-white cursor-pointer" href="#landing">Home</a></li>
                 <li><a class="hover:underline hover:text-white cursor-pointer" href="#services">Our Services</a></li>
                 <li><a class="hover:underline hover:text-white cursor-pointer" href="#pricing">Pricing</a></li>

@@ -2,6 +2,8 @@ const serviceTabList = document.getElementById("service-tab-list");
 const serviceContentList = Array.from(document.querySelectorAll("#services > article > div"));
 const tabArray = Array.from(serviceTabList.querySelectorAll("li"));
 const headerElement = document.querySelector("header");
+const navMenu = document.getElementById("nav-menu");
+const navButton = document.getElementById("nav-button");
 
 const handleTabMouseOver = (index) => {
     serviceContentList.forEach((div) => div.classList.replace("flex", "hidden"));
@@ -12,6 +14,18 @@ const handleTabMouseOver = (index) => {
     serviceContentList[index].classList.replace("hidden", "flex");
     tabArray[index].classList.replace("bg-zinc-600", "bg-orange-300");
     tabArray[index].classList.replace("text-white", "text-black");
+};
+
+const handleNavMenu = () => {
+    if (navMenu.classList.contains("flex")) {
+        navMenu.classList.replace("flex", "hidden");
+        document.body.classList.remove("overflow-hidden");
+        navButton.querySelector("i").classList.replace("fa-xmark", "fa-bars");
+    } else {
+        navMenu.classList.replace("hidden", "flex");
+        document.body.classList.add("overflow-hidden");
+        navButton.querySelector("i").classList.replace("fa-bars", "fa-xmark");
+    }
 };
 
 window.addEventListener("scroll", () => {
@@ -33,3 +47,4 @@ tabArray.forEach((tab, index) => {
 });
 
 document.getElementById("contact-form").addEventListener("submit", (e) => e.preventDefault());
+navButton.addEventListener("click", handleNavMenu);
