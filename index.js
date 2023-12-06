@@ -19,11 +19,9 @@ const handleTabMouseOver = (index) => {
 const handleNavMenu = () => {
     if (navMenu.classList.contains("flex")) {
         navMenu.classList.replace("flex", "hidden");
-        document.body.classList.remove("overflow-hidden");
         navButton.querySelector("i").classList.replace("fa-xmark", "fa-bars");
     } else {
         navMenu.classList.replace("hidden", "flex");
-        document.body.classList.add("overflow-hidden");
         navButton.querySelector("i").classList.replace("fa-bars", "fa-xmark");
     }
 };
