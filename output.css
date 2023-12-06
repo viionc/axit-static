@@ -1313,6 +1313,10 @@ video {
     gap: 100px;
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
